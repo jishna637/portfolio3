@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logoimg{
+    height: 100px;
+    width: 100px;
+}
+.navlinks{
+    padding: 40px;
+}
+.navlinks>a{
+    margin-right: 40px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.details{
+ 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    
+   
+}
+.details>a{
+    background-color: white;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: fit-content;
+    margin-top: 20px;
+    
+}
+#username{
+    color: blueviolet;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 40px;
+}
+#desc{
+    font-family: "Playwrite GB S", cursive; ;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 100%;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-family: "Playwrite GB S", cursive;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-family: "Playwrite GB S", cursive;
+}
+.btn3{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-family: "Playwrite GB S", cursive;
+}
+.btn4{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-family: "Playwrite GB S", cursive;
+}
+.btn5{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-family: "Playwrite GB S", cursive;
+}
+.imgcontainer{
+    position: relative;
+}
+#img1{
+    width: 70%;
+    
+}
+#img2{
+    width: 70%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   
+}
+#dwnld{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px 20px;
+
+}
+#about{
+    padding: 30px;
+    color: white;
+}
+#about>h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.abtcontainer{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#abtimg{
+    width: 73%;
+    margin-top: 400px;
+}
+.aboutinfo{
+    padding-left: 30px;
+    margin-top: 400px;
+    font-size: large;
+}
+.aboutinfo>p{
+    text-align: justify; 
+    font-family: "Playwrite GB S", cursive;
+    
+}
+#h5{
+    color: white;
+}
+.skills {
+    position: absolute;
+    top: 1160px;
+    text-align: center;
+    padding: 50px 20px;
+}
+.skills h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   
+}
+
+.heading {
+    display: block; 
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 100px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Playwrite GB S", cursive;
+    margin-left: 100px;
+   
+}
+
+.skill-category {
+    padding: 20px;
+    border-radius: 25px;
+    width: 220px;
+    text-align: center;
+    
+}
+
+.skill-category h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.skill-category p {
+    font-size: 16px;
+    color: white;
+    margin: 5px 0; 
+}
+.project{
+    position: absolute;
+    top: 1160px;
+    text-align: center;
+    padding: 50px 20px;
+}
+.h6{
+    display: block; 
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 100px;
+   
+}
+#fbimg{
+    width: 40%;
+}
+#bookimg{
+    width: 40%;
+    height: 25%;
+   
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+    padding: 30px;
+}
+.content>h1{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 23px;
+    color: red;
+    margin-top: -70px;
+    margin-left: 213px;
+}
+.content1>h3{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 24px;
+    margin-top: -109px;
+    margin-left: 378px;
+    color: red;
+}
+.content1>p{
+    font-size: 16px;
+    margin-left: 359px;
+}
+.content>p{
+    font-size: 16px;
+    margin-left: 229px;
+    
+}
+
+
+.content{
+    padding: 20px;
+    border-radius: 25px;
+    width: 220px;
+    text-align: center;
+    margin-top: 45px; 
+}
+#cntct{
+    font-size: 50px;
+    color: blue;
+    margin-top: -900px;
+    font-size: 30px;
+    font-family: "Playwrite GB S", cursive;
+}
+.contact{
+    position: absolute;
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+.cntctinfo{
+    margin-top: 200px;
+}
